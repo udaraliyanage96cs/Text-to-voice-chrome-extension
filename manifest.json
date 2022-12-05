@@ -1,0 +1,22 @@
+{
+    "name": "Text To Speach",
+    "version": "1.0.0",
+    "description": "Read Anything on Medium",
+    "manifest_version": 3,
+    "author": "Udara Liyanage",
+    "action":{
+        "default_popup": "index.html",
+        "default_icon": "logo.png",
+        "default_title": "Text To Speach"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "css": ["app.css"],
+        "js": ["content-script.js"]
+        }
+    ]
+}

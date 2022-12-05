@@ -1,0 +1,25 @@
+p{
+    font-size: 20px;
+}
+
+#mainbox{
+    width: "100%";
+    height: "100%";
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ffd371;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+}
+#MuteMeButton{
+    margin-left: 15px;
+}
